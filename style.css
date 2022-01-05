@@ -1,0 +1,81 @@
+/*Reset code*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    font-family: 'Playfair Display', serif;
+    font-size: 1.6rem;
+}
+
+/*Banner Area*/
+.main {
+    display: flex;
+    margin: 40px;
+    margin-top: 45px;
+    margin-left: 60px;
+}
+.title {
+    width: 55%;
+    margin-right: 40px;
+}
+.title h1 {
+    position: relative;
+    font-size: 40px;
+    padding-bottom: 5px;
+    padding-top: 35px;
+    color: #fff;
+    margin-left: 15px;
+}
+.title-span{
+    font-size: 40px;
+    color: rgb(141, 47, 188);
+    display: block;
+}
+.title h1:before {
+    position: absolute;
+    content: "";
+    width: 5px;
+    background-color: purple;
+    height: 95px;
+    left: -15px;
+    top: 42px;
+    border-radius: 15px;
+}
+.image {
+    width: 40%;
+}
+.image img {
+    width: 75%;
+}
+.btn {
+    text-decoration: none;
+    background-color: rgb(153 8 227);
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.btn:hover {
+    background-color: #b77081;
+    transition: .4s;
+}
+.banner-para {
+    padding: 30px 0px;
+    padding-bottom: 50px;
+    text-align: justify;
+}
+.para{
+    margin-top: 55px ;
+}
+
+
+/*Mission Area*/
+
+
+
+
