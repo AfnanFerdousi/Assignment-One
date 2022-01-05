@@ -13,9 +13,9 @@ body{
 }
 
 /*Banner Area*/
-.main {
+.banner{
     display: flex;
-    margin: 40px;
+    margin: 60px;
     margin-top: 45px;
     margin-left: 60px;
 }
@@ -28,7 +28,7 @@ body{
     font-size: 40px;
     padding-bottom: 5px;
     padding-top: 35px;
-    color: #fff;
+    color: #000;
     margin-left: 15px;
 }
 .title-span{
@@ -76,6 +76,109 @@ body{
 
 /*Mission Area*/
 
+.head {
+    text-align: center;
+    font-size: 24px;
+    font-family: sans-serif;
+    margin-top: 90px;
+    margin-bottom: 70px;
+}
+.head h1 span {
+    color: rgb(204, 153, 230);
+}
+.all-missions {
+    margin: 60px;
+    display: flex;
+}
+.single-mission img {
+    width: 250px;
+    margin-left: 16%;
+}
+.single-mission h2 {
+    text-align: center;
+}
+.single-mission {
+    margin: 10px;
+    padding: 40px;
+    padding-top: 0;
+    background-color: #fff6fe;
+    border-radius: 10px;
+    border: 1px solid #f7e5e8;
+}
+.single-mission p {
+    text-align: justify;
+    padding-top: 18px;
+}
 
 
+/*Article Area*/
+.article-area {
+    margin: 60px;
+    display: flex;
+    margin-top: 90px;
+    
+}
+.bg {
+    background-image: url("./images/shapes/dream-bg.png");
+    background-position: right;
+    background-repeat: no-repeat;
+}
+.article-img {
+    width: 55%;
+}
+.article-img img {
+    width: 100%;
+}
+.article {
+    width: 100%;
+    margin-left: 40px;
+    padding-top: 75px;
+}
+.article h2 {
+    font-size: 36px;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    color: rgb(204, 153, 230);
+}
+.article p {
+    margin-bottom: 30px;
+}
 
+/*Community Area*/
+.com-article {
+    width: 60%;
+    margin-right: 40px;
+    padding-top: 75px;
+}
+.com-img {
+    width: 60%;  
+}
+.com-img img {
+    width: 75%;
+}
+.com-article h2 {
+    font-size: 36px;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+    color: rgb(204, 153, 230);
+}
+.com-article h2 span{
+    color: #000;
+    display: block;
+}
+.com-article p {
+    margin-bottom: 30px;
+}
+
+/*Footer Area*/
+footer {
+    text-align: center;
+    padding: 40px;
+    background-color: #1e1e2c;
+    margin-top: 150px;
+}
+footer h2 {
+    font-family: 'Playfair Display';
+    color: #8d2fbc;
+    padding-bottom: 20px;
+}
