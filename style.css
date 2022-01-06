@@ -12,6 +12,7 @@ body{
     font-size: 1.6rem;
 }
 
+
 /*Banner Area*/
 .banner{
     display: flex;
@@ -101,7 +102,7 @@ body{
     margin: 10px;
     padding: 40px;
     padding-top: 0;
-    background-color: #fff6fe;
+    background-color: #dfabd9;
     border-radius: 10px;
     border: 1px solid #f7e5e8;
 }
@@ -181,4 +182,42 @@ footer h2 {
     font-family: 'Playfair Display';
     color: #8d2fbc;
     padding-bottom: 20px;
+}
+
+/*Feedback Area*/
+.header {
+    font-size: 18px;
+    color: rgb(204, 153, 230);
+    text-align: center;
+    font-family: sans-serif;
+    margin-top: 90px;
+    margin-bottom: 70px;
+}
+.all-customers{
+    display: flex;
+    margin: 60px;
+    text-align: center;
+}
+.photo img {
+    width: 170px;
+}
+.single-customer {
+    width: 330px;
+    padding: 0px 20px;
+    border: 2px solid rgb(204, 153, 230);
+    border-radius: 5px;
+    margin: 0 40px;
+}
+.single-customer h3 {
+    color: #9e9d9a;
+    font-family: sans-serif;
+    padding: 13px 0;
+}
+.single-customer h3 span {
+    display: block;
+    font-size: 15px;
+    color: rgb(204, 153, 230);
+}
+.single-customer p {
+    padding-bottom: 30px;
 }
